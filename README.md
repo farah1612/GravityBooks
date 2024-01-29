@@ -15,7 +15,8 @@ This project aims to design and implement a Data Warehouse (DWH) solution for Gr
 3. **Load:** Transformed data is loaded into the Data Warehouse for analysis and reporting.
 
 ## Snowflake Schema Diagram
-!![Schema](https://github.com/farah1612/GravityBooks/assets/96481182/bbbf3683-327c-49df-847b-0e33b127d6ac)
+![Schema](https://github.com/farah1612/GravityBooks/assets/96481182/6083dbea-83a8-4d0e-b553-7b2c7cb4260e)
+
 
 
 
