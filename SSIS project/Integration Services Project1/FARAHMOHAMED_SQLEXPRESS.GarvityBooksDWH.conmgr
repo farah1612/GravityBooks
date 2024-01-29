@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="FARAHMOHAMED_SQLEXPRESS.GarvityBooksDWH"
+  DTS:DTSID="{D3F15888-96D8-47F5-A321-A863338564D8}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=FARAHMOHAMED\SQLEXPRESS;Initial Catalog=GarvityBooksDWH;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-Integration Services Project1-{D3F15888-96D8-47F5-A321-A863338564D8}FARAHMOHAMED\SQLEXPRESS.GarvityBooksDWH;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
