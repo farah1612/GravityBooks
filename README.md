@@ -37,10 +37,10 @@ This project aims to design and implement a Data Warehouse (DWH) solution for Gr
 3. **Dashboard Access:** Access the dashboard to visualize data insights.
 
 ## Dependencies
+- SQL Server Management System
 - SQL Server Integration Services (SSIS)
 - SQL Server Analysis Services (SSAS)
-- Business Intelligence Development Studio (BIDS) or SQL Server Data Tools (SSDT)
-- Dashboarding tool (e.g., Power BI, Tableau)
+- Dashboarding tool (Power BI)
 
 ## Conclusion
 This project successfully implements a Data Warehouse solution for GravityBooks, enabling efficient analysis and reporting of key business metrics. The SSAS cube provides multidimensional analysis capabilities, while the dashboard offers intuitive visualizations for decision-making purposes.
