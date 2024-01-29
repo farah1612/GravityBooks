@@ -1,17 +1,13 @@
 # GravityBooks Data Warehouse and Dashboard Project
 
 ## Overview
-This project aims to design and implement a Data Warehouse (DWH) solution for GravityBooks, an Online Transaction Processing (OLTP) database. The OLTP database contains data related to book orders, customers, authors, and publications. The Data Warehouse is built using SQL Server Integration Services (SSIS) for ETL processes, Snowflake schema for data modeling, and SQL Server Analysis Services (SSAS) for analysis. Additionally, a dashboard is developed to visualize key metrics and relationships within the data.
+This project aims to design and implement a Data Warehouse (DWH) solution for GravityBooks, an Online Transaction Processing (OLTP) database. The OLTP database contains data related to Customers, Addresses, Books, Authors, and Shipping methods. The Data Warehouse is built using SQL Server Integration Services (SSIS) for ETL processes, Snowflake schema for data modeling, and SQL Server Analysis Services (SSAS) for analysis. Additionally, a dashboard is developed to visualize key metrics and relationships within the data.
 
 ## Components
-1. **OLTP Database (GravityBooks):** Contains transactional data such as orders, customers, books, authors, and publications.
+1. **OLTP Database (GravityBooks):** Contains transactional data such as Customers, Address, Books, Authors, Shipping method, and Date.
 2. **Data Warehouse (DWH):** Built using SSIS for ETL processes. Snowflake schema is implemented for efficient querying and reporting.
 3. **SSAS Cube:** Utilized for multidimensional analysis and reporting.
 4. **Dashboard:** Visualizes important relationships and metrics derived from the DWH.
-
-## Architecture
-![Architecture Diagram](architecture_diagram.png)
-*Diagram illustrating the flow of data from OLTP database to Data Warehouse and SSAS Cube, culminating in the Dashboard visualization.*
 
 ## ETL Process
 1. **Extract:** Data is extracted from the GravityBooks OLTP database using SSIS packages.
@@ -19,14 +15,14 @@ This project aims to design and implement a Data Warehouse (DWH) solution for Gr
 3. **Load:** Transformed data is loaded into the Data Warehouse for analysis and reporting.
 
 ## Snowflake Schema Diagram
-![Snowflake Schema Diagram](snowflake_schema.png)
-*Diagram depicting the Snowflake schema design implemented in the Data Warehouse.*
+!![Schema](https://github.com/farah1612/GravityBooks/assets/96481182/bbbf3683-327c-49df-847b-0e33b127d6ac)
+
+
 
 ## SSAS Cube
-1. **Dimensions:** Includes dimensions such as Customers, Books, Authors, and Time.
-2. **Measures:** Key measures like total orders, total revenue, and total due are included.
-3. **Hierarchies:** Hierarchies are defined for drill-down analysis.
-
+1. **Dimensions:** Includes dimensions such as Customers, Address, Books, Authors, Shipping method, and Date.
+2. **Measures:** Key measures like total orders, and total due are included.
+   
 ## Dashboard Visualizations
 1. **Top Publications:** Bar chart showcasing the top publications based on sales.
 2. **Top Ordered Books:** Bar chart displaying the most ordered books.
